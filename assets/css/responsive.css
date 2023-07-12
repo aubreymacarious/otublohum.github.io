@@ -1,0 +1,141 @@
+/* Styles for screens up to 600px wide (smartphones) */
+@media (max-width: 600px) {
+    /* CSS rules here */
+    .hero-image{
+    height: 300px;
+    padding-top: 300px;
+    }
+
+    .hero_container{
+        padding: 0;
+    }
+
+    .sec-top{
+    margin-top: 254px !important;
+    border-top: 1px solid #80808059;
+    padding-top: 38px;
+    }
+
+    .hero-box{
+        margin: 0;
+    } 
+  }
+  
+  /* Styles for screens between 601px and 1024px wide (tablets) */
+  @media (min-width: 601px) and (max-width: 1024px) {
+    /* CSS rules here */
+    .hero-image{
+        height: 400px;
+        padding-top: 400px;
+        }
+
+        .hero_container{
+            max-width: 690px;
+        }
+    
+    }
+
+  
+  /* Styles for screens larger than 1024px wide (desktops) */
+  @media (min-width: 992px)
+{
+
+    h2, .h2 {
+        font-size: 2.44444rem;
+        line-height: 1.18182;
+    }
+    
+    
+    .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+}
+  @media (min-width: 1025px) {
+    /* CSS rules here */
+    main{
+        margin-top: 60px;
+    }
+
+    .profile-container{
+        padding: 0px 170px;
+    }
+
+    .profile-card{
+width: 440px;
+    }
+
+    .banner-container {
+        padding: 50px;
+    }
+
+    .banner-inner {
+        padding: 40px;
+        margin-left: -60px;
+    }
+
+    .banner-title, .banner-content {
+        padding-left: 60px;
+    }
+
+  }
+
+  @media (min-width: 768px)
+{
+    .teaser_list--cta {
+    background: 0 0;
+    padding: 0;
+    border: 0;
+    color: inherit;
+    margin-bottom: 1.22222rem;
+}
+
+.teaser_content{
+    padding: 30px;
+    /* margin-bottom: 25px; */
+}
+
+.sm-card-body{
+    padding: 30px 10px;
+}
+
+.teaser-card-link:hover:before,
+.teaser-card-link:focus:before{
+    
+    top: -15px;
+    right: -15px;
+    bottom: -15px;
+    left: -15px;
+    transition-timing-function: cubic-bezier(.23,1,.32,1);
+}
+
+.banner-container {
+    padding: 30px;
+}
+
+.banner-inner {
+    display: flex;
+    padding: 30px;
+    margin-left: -30px;
+}
+
+.banner-title, .banner-content {
+    width: 50%;
+    padding-left: 30px;
+}
+
+
+}
+
+@media (min-width: 480px)
+{.banner-button-container {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: -10px;
+    margin-top: -20px;
+}
+
+.banner-button-container .button {
+    margin-left: 10px;
+}
+}
